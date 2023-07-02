@@ -18,6 +18,18 @@ body {
   display: flex;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-jc-c {
+  align-items: center;
+}
+
 .text-color-white {
   color: white;
 }
@@ -26,6 +38,8 @@ nav,
 footer {
   background-color: #323232;
 }
+
+/* Nav */
 
 .active {
   color: #ff0000 !important;
@@ -51,6 +65,8 @@ nav a img:hover {
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
+
+/* Header */
 
 .header {
   background-image: url(../img/headers/header.png);
@@ -83,6 +99,53 @@ h2 {
 
 .h-h2 {
   font-size: 2.5rem;
+}
+
+/* Footer */
+
+footer h4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: rgb(219, 219, 219);
+}
+
+.footer-svg {
+  width: 55px;
+  fill: #00a2e8;
+  border: 2px solid #0562ae;
+  border-radius: 25px 0px;
+  padding: 5px;
+  margin: 25px;
+}
+
+.footer-svg:hover {
+  fill: #c0c0c0;
+  transition: 0.4s;
+  border: 2px solid #727272;
+  border-radius: 25px 0px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #b7b6b6;
+  padding: 15px;
+  font-weight: 600;
+}
+
+footer ul li a:hover {
+  color: #ff0000;
+  transition: 0.4s;
+}
+
+footer ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.footer-cp {
+  color: #b7b6b6;
+  font-size: 1rem;
+  margin-top: 20px;
 }
 
 /* Primer bk */
@@ -136,6 +199,14 @@ h2 {
   .h-h2 {
     font-size: 1rem;
   }
+
+  footer ul li a {
+    font-size: 0.9rem;
+  }
+
+  .footer-cp {
+    font-size: 0.8rem;
+  }
 }
 
 /* Cuarto bk */
@@ -149,6 +220,24 @@ h2 {
   .h-h2 {
     font-size: 0.85rem;
   }
+
+  footer h4 {
+    font-size: 2.2rem;
+  }
+
+  .footer-svg {
+    width: 50px;
+    margin: 20px;
+  }
+
+  footer ul li a {
+    padding: 6px;
+    font-size: 0.85rem;
+  }
+
+  .footer-cp {
+    font-size: 0.62rem;
+  }
 }
 
 /* Quinto bk */
@@ -161,5 +250,22 @@ h2 {
 
   .h-h2 {
     font-size: 0.75rem;
+  }
+
+  footer h4 {
+    font-size: 2rem;
+  }
+
+  .footer-svg {
+    width: 45px;
+  }
+
+  footer ul li a {
+    padding: 6px;
+    font-size: 0.65rem;
+  }
+
+  .footer-cp {
+    font-size: 0.5rem;
   }
 }
