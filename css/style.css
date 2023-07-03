@@ -34,6 +34,10 @@ body {
   color: white;
 }
 
+.txt-color-usd {
+  color: #008000;
+}
+
 nav,
 footer {
   background-color: #323232;
@@ -82,8 +86,8 @@ nav a img:hover {
   border-bottom: solid 5px #323232;
 }
 
-.header h1,
-h2 {
+.header h2,
+h1 {
   text-shadow: 10px 0px 10px #0079ad;
   color: #fdfdfd;
   font-weight: 600;
@@ -106,7 +110,8 @@ h2 {
 footer h4 {
   font-size: 2.5rem;
   font-weight: 600;
-  color: rgb(219, 219, 219);
+  color: #dbdbdb;
+  margin-top: 20px;
 }
 
 .footer-svg {
@@ -146,6 +151,79 @@ footer ul {
   color: #b7b6b6;
   font-size: 1rem;
   margin-top: 20px;
+}
+
+/* main index */
+.promotions-box {
+  background-color: #323232;
+  margin: 50px auto;
+  border-radius: 10px;
+  border: solid 3px #807e7e;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 550;
+  width: 90%;
+  padding: 15px 0px;
+}
+
+.card-promotions {
+  color: white;
+  margin: 30px;
+  font-size: 1.2em;
+  font-weight: 550;
+  width: auto;
+  display: inline-block;
+}
+
+.card-promotions:hover {
+  -webkit-transform: scale(1.06);
+  transform: scale(1.06);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  box-shadow: 10px 10px 10px 10px #000000;
+  border-radius: 10px;
+  background-color: #4e4e4e;
+}
+
+.card-promotions img {
+  height: 300px;
+  border-top: solid 2px #e24040;
+}
+
+.card-promotions h3 {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #e24040;
+  margin-top: 10px;
+}
+
+.card-promotions h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #00a2e8;
+  margin-top: 20px;
+}
+
+.card-promotions p {
+  color: #dbdbdb;
+  margin: 0px 10px;
+}
+
+.btn-card {
+  padding: 10px 20px;
+  margin: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: solid 2px white;
+  cursor: pointer;
+}
+
+.btn-card:hover {
+  background-color: #00000033;
+  transition: background-color 0.3s ease;
 }
 
 /* Primer bk */
