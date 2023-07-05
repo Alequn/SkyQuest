@@ -172,6 +172,9 @@ footer ul {
   font-weight: 550;
   width: 90%;
   padding: 15px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card-promotions {
@@ -179,8 +182,7 @@ footer ul {
   margin: 30px;
   font-size: 1.2em;
   font-weight: 550;
-  width: auto;
-  display: inline-block;
+  width: 25%;
 }
 
 .card-promotions:hover {
@@ -194,7 +196,7 @@ footer ul {
 }
 
 .card-promotions img {
-  height: 300px;
+  width: 100%;
   border-top: solid 2px #e24040;
 }
 
@@ -250,7 +252,7 @@ footer ul {
   color: #e9e9e9;
   margin: 30px;
   border: solid 2px #323232;
-  border-radius: 10px;
+  border-radius: 10px 0px;
   text-align: center;
   font-size: 1.3em;
   font-weight: 550;
@@ -267,7 +269,7 @@ footer ul {
 
 .destinations img {
   width: 100%;
-  border-radius: 8px 9px 0px 0px;
+  border-radius: 9px 0px 0px 0px;
 }
 
 .destinations figcaption {
@@ -387,6 +389,24 @@ footer ul {
     font-size: 1.8rem;
   }
 
+  .promotions-box {
+    margin: 25px auto;
+    font-size: 1em;
+  }
+
+  .card-promotions {
+    font-size: 1em;
+    width: 25%;
+  }
+
+  .card-promotions h3 {
+    font-size: 1.5rem;
+  }
+
+  .card-promotions h2 {
+    font-size: 1.5rem;
+  }
+
   /* destinos */
 
   .destinations {
@@ -463,6 +483,25 @@ footer ul {
 
   .h-h2 {
     font-size: 1.5rem;
+  }
+
+  .promotions-box {
+    margin: 25px auto;
+    font-size: 1em;
+  }
+
+  .card-promotions {
+    font-size: 1.5em;
+    width: 75%;
+    border-bottom: 5px solid #e24040;
+  }
+
+  .card-promotions h3 {
+    font-size: 2.5rem;
+  }
+
+  .card-promotions h2 {
+    font-size: 2.5rem;
   }
 
   /* destinos */
@@ -610,6 +649,23 @@ footer ul {
     font-size: 0.62rem;
   }
 
+  .promotions-box {
+    margin: 25px auto;
+    font-size: 1em;
+  }
+
+  .card-promotions {
+    font-size: 1.5em;
+  }
+
+  .card-promotions h3 {
+    font-size: 2rem;
+  }
+
+  .card-promotions h2 {
+    font-size: 1.8rem;
+  }
+
   .gallery-title {
     font-size: 0.6em;
   }
@@ -667,6 +723,23 @@ footer ul {
 
   .footer-cp {
     font-size: 0.5rem;
+  }
+
+  .promotions-box {
+    margin: 25px auto;
+    font-size: 1em;
+  }
+
+  .card-promotions {
+    font-size: 1.1em;
+  }
+
+  .card-promotions h3 {
+    font-size: 1.5rem;
+  }
+
+  .card-promotions h2 {
+    font-size: 1.2rem;
   }
 
   /* destinos */
