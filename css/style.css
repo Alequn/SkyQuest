@@ -38,6 +38,14 @@ body {
   color: #008000;
 }
 
+.m-20px {
+  margin: 20px;
+}
+
+.mb-15px {
+  margin-bottom: 15px;
+}
+
 nav,
 footer {
   background-color: #323232;
@@ -211,7 +219,6 @@ footer ul {
 
 .btn-card {
   padding: 10px 20px;
-  margin: 20px;
   border-radius: 5px;
   font-size: 16px;
   text-decoration: none;
@@ -224,6 +231,49 @@ footer ul {
 .btn-card:hover {
   background-color: #00000033;
   transition: background-color 0.3s ease;
+}
+
+/* Destinos */
+
+.destinations-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.destinations-box figure {
+  width: 25%;
+}
+
+.destinations {
+  background-color: #323232;
+  color: #e9e9e9;
+  margin: 30px;
+  border: solid 2px #323232;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 550;
+  width: auto;
+}
+
+.destinations:hover {
+  -webkit-transform: scale(1.06);
+  transform: scale(1.06);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  box-shadow: 5px 5px 5px 5px #000000;
+}
+
+.destinations img {
+  width: 100%;
+  border-radius: 8px 9px 0px 0px;
+}
+
+.destinations figcaption {
+  color: #00a2e8;
+  margin: 15px 0px 10px 0px;
+  font-size: 1.6em;
 }
 
 /* Primer bk */
