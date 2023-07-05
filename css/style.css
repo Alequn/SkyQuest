@@ -504,6 +504,94 @@ h4 {
   transition: all 0.4s ease;
 }
 
+/* Contacto */
+.menu-contact-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.menu-contact {
+  background-color: #323232;
+  color: white;
+  margin: 30px;
+  padding: 11px;
+  border: solid 2px #323232;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 550;
+  width: 44%;
+}
+
+.menu-contact:hover {
+  background-color: #434242;
+  transition: background-color 0.3s ease;
+}
+
+.menu-contact h2 {
+  color: #00a2e8;
+  font-size: 2em;
+  font-weight: 900;
+  -webkit-text-stroke: 1px #000000;
+}
+
+.menu-contact form {
+  margin-top: 40px;
+}
+
+.btn-submit-contact {
+  width: 140px;
+  background: #ff851b;
+  font-size: 16px;
+  border: none;
+  color: white;
+  padding: 10px 0;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.btn-submit-contact:hover {
+  background: #9c4a02;
+  color: #323232;
+  transition: all 1s ease;
+}
+
+.contact-form-label {
+  display: block;
+  color: #ff851b;
+  font-size: 16px;
+}
+
+.contact-form-input {
+  background: #00000080;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid coral;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: white;
+}
+
+.contact-form-textarea {
+  resize: vertical;
+  max-height: 150px;
+  min-width: 50px;
+}
+
+.contact-map {
+  width: 100%;
+  height: 400px;
+  border: solid 2px #323232;
+  border-radius: 10px;
+}
+
 /* Primer bk */
 
 @media screen and (max-width: 1190px) {
@@ -604,6 +692,11 @@ h4 {
 
   /* Seguimiento */
   .follow-container {
+    width: 90%;
+  }
+
+  /* Contacto */
+  .menu-contact {
     width: 90%;
   }
 }
@@ -784,6 +877,28 @@ h4 {
   .follow-form-input {
     width: 85%;
   }
+
+  /* Contacto */
+  .menu-contact {
+    margin: 20px;
+    font-size: 1em;
+  }
+  .menu-contact h2 {
+    font-size: 1.6em;
+  }
+
+  .menu-contact form {
+    margin-top: 20px;
+  }
+  .btn-submit-contact {
+    width: 120px;
+  }
+  .contact-form-label {
+    font-size: 14px;
+  }
+  .contact-map {
+    height: 300px;
+  }
 }
 
 /* Cuarto bk */
@@ -961,5 +1076,26 @@ h4 {
 
   .container-faq h2 {
     font-size: 2.2em;
+  }
+
+  /* Contacto */
+  .menu-contact {
+    font-size: 0.8em;
+  }
+  .menu-contact h2 {
+    margin: 5px;
+  }
+  .btn-submit-contact {
+    width: 30%;
+    font-size: 12px;
+  }
+  .contact-form-label {
+    font-size: 12px;
+  }
+  .contact-form-input {
+    width: 90%;
+  }
+  .contact-map {
+    height: 200px;
   }
 }
