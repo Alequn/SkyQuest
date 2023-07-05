@@ -370,6 +370,71 @@ footer ul {
   grid-row: span 3;
 }
 
+/* FAQ */
+.container-faq {
+  background-color: #c0c0c0;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px 30px;
+  border: solid 3px #323232;
+  border-radius: 10px;
+  text-align: center;
+  overflow-y: auto;
+  max-height: 600px;
+}
+
+.container-faq h2 {
+  font-size: 2.5em;
+  text-shadow: 10px 0px 10px #0079ad;
+  color: #fdfdfd;
+  font-weight: 600;
+  -webkit-text-stroke: 1.5px #00a2e8;
+}
+
+.container-faq p,
+h2,
+h4 {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.container-faq-box {
+  border-bottom: 1px solid #000000;
+}
+
+.container-faq-box:hover {
+  border-bottom: 1px solid #ff0000;
+  color: #ff0000;
+}
+
+.container-faq::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.container-faq::-webkit-scrollbar:vertical {
+  width: 13px;
+}
+
+.container-faq::-webkit-scrollbar-thumb {
+  background-color: #797979;
+  border-radius: 20px;
+  border: 2px solid #f1f2f3;
+}
+
+.faq-input {
+  background: #dadada;
+  border: none;
+  outline: none;
+  border-bottom: 4px solid #00a2e8;
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
 /* Primer bk */
 
 @media screen and (max-width: 1190px) {
@@ -574,6 +639,10 @@ footer ul {
     grid-column-start: span 2;
     grid-row: span 2;
   }
+
+  .faq-input {
+    width: 80%;
+  }
 }
 
 /* Tercer bk */
@@ -616,6 +685,15 @@ footer ul {
     font-size: 0.7em;
     -webkit-text-stroke: 0.8px black;
     margin-left: 5px;
+  }
+
+  .container-faq h2 {
+    font-size: 1.9em;
+  }
+
+  .faq-input {
+    width: 90%;
+    padding: 5px;
   }
 }
 
@@ -694,6 +772,15 @@ footer ul {
     font-size: 0.55em;
     -webkit-text-stroke: 0.5px black;
   }
+
+  .container-faq h2 {
+    font-size: 2.4em;
+  }
+
+  .faq-input {
+    width: 100%;
+    padding: 8px;
+  }
 }
 
 /* Quinto bk */
@@ -755,5 +842,9 @@ footer ul {
   .gallery-title {
     font-size: 0.4em;
     -webkit-text-stroke: 0.3px black;
+  }
+
+  .container-faq h2 {
+    font-size: 2.2em;
   }
 }
