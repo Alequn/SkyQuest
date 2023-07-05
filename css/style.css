@@ -435,6 +435,75 @@ h4 {
   text-align: center;
 }
 
+/* Seguimiento */
+.follow-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.follow-container {
+  background-color: #323232;
+  color: white;
+  margin: 30px;
+  padding: 40px 15px;
+  border: solid 3px #b9b9b9;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 550;
+  width: 40%;
+}
+
+.follow-container h3 {
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 1.4em;
+  text-shadow: #00a2e8 5px 5px 8px;
+}
+
+.follow-form-label {
+  display: block;
+  color: #ff851b;
+  font-size: 16px;
+  position: relative;
+}
+
+.follow-form-input {
+  background: #00000080;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid coral;
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: white;
+}
+
+.btn-submit-follow {
+  width: 100px;
+  background: #ff851b;
+  font-size: 16px;
+  border: none;
+  color: white;
+  padding: 10px 0;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.btn-submit-follow:hover {
+  background: #9c4a02;
+  color: #323232;
+  transition: all 0.4s ease;
+}
+
 /* Primer bk */
 
 @media screen and (max-width: 1190px) {
@@ -531,6 +600,11 @@ h4 {
   .gallery-item:nth-child(9) {
     grid-column-start: span 2;
     grid-row: span 3;
+  }
+
+  /* Seguimiento */
+  .follow-container {
+    width: 90%;
   }
 }
 
@@ -643,6 +717,12 @@ h4 {
   .faq-input {
     width: 80%;
   }
+
+  /* Seguimiento */
+  .btn-submit-follow {
+    width: 200px;
+    border-radius: 5px;
+  }
 }
 
 /* Tercer bk */
@@ -694,6 +774,15 @@ h4 {
   .faq-input {
     width: 90%;
     padding: 5px;
+  }
+
+  /* Seguimiento */
+  .follow-container h3 {
+    font-size: 1.1em;
+  }
+
+  .follow-form-input {
+    width: 85%;
   }
 }
 
@@ -780,6 +869,32 @@ h4 {
   .faq-input {
     width: 100%;
     padding: 8px;
+  }
+
+  /* Seguimiento */
+  .follow-container h3 {
+    font-size: 0.85em;
+  }
+
+  .btn-submit-follow {
+    width: 120px;
+    padding: 8px 0;
+    margin-top: 10px;
+  }
+
+  .follow-form-label {
+    font-size: 14px;
+  }
+
+  .follow-form-input {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  .btn-submit-follow {
+    width: 180px;
+    font-size: 12px;
+    padding: 8px 0;
   }
 }
 

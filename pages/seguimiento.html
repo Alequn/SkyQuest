@@ -71,6 +71,61 @@
       </div>
     </header>
 
+    <main>
+      <section class="follow-box">
+        <article class="follow-container">
+          <h3>BUSCAR POR RUTA DE VUELO</h3>
+          <form action="send.php">
+            <div>
+              <label class="follow-form-label">Origen</label>
+              <input
+                type="text"
+                class="follow-form-input"
+                placeholder="Ej: Montevideo"
+              />
+            </div>
+
+            <div>
+              <label class="follow-form-label">Destino</label>
+              <input
+                type="text"
+                class="follow-form-input"
+                placeholder="Ej: París"
+              />
+            </div>
+
+            <div>
+              <label class="follow-form-label">Fecha de vuelo</label>
+              <input type="date" class="follow-form-input" />
+            </div>
+
+            <input type="submit" class="btn-submit-follow" value="Buscar" />
+          </form>
+        </article>
+
+        <article class="follow-container">
+          <h3>BUSCAR POR NÚMERO DE VUELO</h3>
+          <form action="send.php">
+            <div>
+              <label class="follow-form-label">Número de vuelo</label>
+              <input
+                type="text"
+                class="follow-form-input"
+                placeholder="Ej: SQA500"
+              />
+            </div>
+
+            <div>
+              <label class="follow-form-label">Fecha de vuelo</label>
+              <input type="date" class="follow-form-input" />
+            </div>
+
+            <input type="submit" class="btn-submit-follow" value="Buscar" />
+          </form>
+        </article>
+      </section>
+    </main>
+
     <footer class="flex-container flex-column flex-jc-c">
       <h4>SkyQuest.com</h4>
 
