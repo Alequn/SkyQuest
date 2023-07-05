@@ -252,7 +252,7 @@ footer ul {
   border: solid 2px #323232;
   border-radius: 10px;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: 550;
   width: auto;
 }
@@ -273,12 +273,13 @@ footer ul {
 .destinations figcaption {
   color: #00a2e8;
   margin: 15px 0px 10px 0px;
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
 
 /* Primer bk */
 
 @media screen and (max-width: 1190px) {
+  /* index */
   .header h1,
   h2 {
     -webkit-text-stroke: 1px #00a2e8;
@@ -292,6 +293,18 @@ footer ul {
 
   .h-h2 {
     font-size: 1.8rem;
+  }
+
+  /* destinos */
+
+  .destinations {
+    font-size: 1em;
+    font-weight: 550;
+  }
+
+  .destinations figcaption {
+    margin: 10px 0px 10px 0px;
+    font-size: 1.2em;
   }
 }
 
@@ -309,6 +322,27 @@ footer ul {
 
   .h-h2 {
     font-size: 1.5rem;
+  }
+
+  /* destinos */
+
+  .destinations {
+    font-size: 0.8em;
+    font-weight: 550;
+  }
+
+  .destinations figcaption {
+    margin: 10px 0px 10px 0px;
+    font-size: 2em;
+  }
+
+  .destinations-box figure {
+    width: 37.5%;
+  }
+
+  .destinations button {
+    padding: 6px 16px;
+    font-size: 12px;
   }
 }
 
@@ -334,6 +368,18 @@ footer ul {
 
   .footer-cp {
     font-size: 0.8rem;
+  }
+
+  /* destinos */
+
+  .destinations {
+    font-size: 0.7em;
+    font-weight: 550;
+  }
+
+  .destinations figcaption {
+    margin: 10px 0px 10px 0px;
+    font-size: 1.5em;
   }
 }
 
@@ -366,6 +412,26 @@ footer ul {
   .footer-cp {
     font-size: 0.62rem;
   }
+
+  /* destinos */
+
+  .destinations {
+    font-size: 1em;
+    font-weight: 550;
+  }
+
+  .destinations figcaption {
+    margin: 10px 0px 10px 0px;
+    font-size: 1.5em;
+  }
+
+  .destinations-box figure {
+    width: 75%;
+  }
+
+  .destinations button {
+    width: 50%;
+  }
 }
 
 /* Quinto bk */
@@ -395,5 +461,15 @@ footer ul {
 
   .footer-cp {
     font-size: 0.5rem;
+  }
+
+  /* destinos */
+
+  .destinations {
+    font-size: 0.8em;
+  }
+
+  .destinations figcaption {
+    font-size: 1.4em;
   }
 }
