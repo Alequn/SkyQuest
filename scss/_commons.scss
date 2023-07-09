@@ -1,0 +1,48 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-image: url(../img/background/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  h1 {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .flex-container {
+    display: flex;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  .flex-row {
+    flex-direction: row;
+  }
+  
+  .flex-jc-c {
+    align-items: center;
+  }
+  
+  .text-color-white {
+    color: $whiteColor;
+  }
+  
+  .txt-color-usd {
+    color: $usdColor;
+  }
+  
+  .m-20px {
+    margin: 20px;
+  }
+  
+  .mb-15px {
+    margin-bottom: 15px;
+  }

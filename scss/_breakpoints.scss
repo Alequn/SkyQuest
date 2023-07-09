@@ -1,0 +1,500 @@
+/* Primer bk */
+@media screen and (max-width: 1190px) {
+.header h1,
+    h2 {
+      -webkit-text-stroke: 1px $lightBlueColor;
+    }
+
+.h-h1 {
+        margin-bottom: 10px;
+        font-size: 4.5rem;
+        text-decoration: underline $whiteColor;
+      }
+    
+.h-h2 {
+        font-size: 1.8rem;
+      }
+
+.promotions-box {
+        margin: 25px auto;
+        font-size: 1em;
+      }
+
+.card-promotions {
+        font-size: 1em;
+        width: 25%;
+            h3{
+                font-size: 1.5rem;
+            }
+                h2{
+                    font-size: 1.5rem;
+                }
+      }
+
+  /* destinos */
+.destinations {
+    font-size: 1em;
+    font-weight: $fontBold;
+        figcaption{
+            margin: 10px 0px 10px 0px;
+            font-size: 1.2em;
+        }
+  }
+
+.gallery-title {
+    font-size: 1em;
+  }
+
+.gallery-item {
+        &::nth-child(1){
+            grid-column-start: span 1;
+            grid-row: span 2;
+        }
+            &:nth-child(2){
+                grid-column-start: span 1;
+                grid-row: span 2;
+            }
+                &:nth-child(3){
+                    grid-column-start: span 1;
+                    grid-row: span 2;
+                }
+                    &:nth-child(4){
+                        grid-column-start: span 2;
+                        grid-row: span 2;
+                    }
+                        &:nth-child(5){
+                            grid-column-start: span 1;
+                            grid-row: span 3;
+                        }
+                            &:nth-child(6){
+                                grid-column-start: span 1;
+                                grid-row: span 2;
+                            }
+                                &:nth-child(7){
+                                    grid-column-start: span 1;
+                                    grid-row: span 2;
+                                }
+                                    &:nth-child(8){
+                                        grid-column-start: span 1;
+                                        grid-row: span 3;
+                                    }
+                                        &:nth-child(9){
+                                            grid-column-start: span 2;
+                                            grid-row: span 3;
+                                        }
+  }
+
+  /* Seguimiento */
+  .follow-container {
+    width: 90%;
+  }
+
+  /* Contacto */
+  .menu-contact {
+    width: 90%;
+  }
+}
+
+/* Segundo bk */
+@media screen and (max-width: 890px) {
+.header {
+        height: 280px;
+      }
+    
+.h-h1 {
+        font-size: 3.5rem;
+        text-decoration: underline $whiteColor;
+      }
+    
+.h-h2 {
+        font-size: 1.5rem;
+      }
+    
+.promotions-box {
+        margin: 25px auto;
+        font-size: 1em;
+      }
+
+.card-promotions {
+        font-size: 1.5em;
+        width: 75%;
+        border-bottom: 5px solid $lightRedColor;
+            h3{
+                font-size: 2.5rem;
+            }
+                h2{
+                    font-size: 2.5rem;
+                }
+      }
+
+/* destinos */
+.destinations {
+    font-size: 0.8em;
+    font-weight: $fontBold;
+        figcaption{
+            margin: 10px 0px 10px 0px;
+            font-size: 2em;
+        }
+            button{
+                padding: 6px 16px;
+                font-size: 12px;
+            }
+  }
+
+.destinations-box{
+    figure{
+        width: 37.5%;
+    }
+}
+
+.grid-destinations-container {
+    padding: 30px;
+    grid-gap: 10px;
+  }
+
+.gallery-item{
+        &:nth-child(1){
+            grid-column-start: span 1;
+            grid-row: span 1;
+        }
+            &:nth-child(2){
+                grid-column-start: span 1;
+                grid-row: span 1;
+            }
+                &:nth-child(3){
+                    grid-column-start: span 1;
+                    grid-row: span 1;
+                }
+                    &:nth-child(4){
+                        grid-column-start: span 2;
+                        grid-row: span 2;
+                    }
+                        &:nth-child(5){
+                            grid-column-start: span 1;
+                            grid-row: span 3;
+                        }
+                            &:nth-child(6){
+                                grid-column-start: span 1;
+                                grid-row: span 1;
+                            }
+                                &:nth-child(7){
+                                    grid-column-start: span 1;
+                                    grid-row: span 1;
+                                }
+                                    &:nth-child(8){
+                                        grid-column-start: span 1;
+                                        grid-row: span 2;
+                                    }
+                                        &:nth-child(9){
+                                            grid-column-start: span 2;
+                                            grid-row: span 2;
+                                        }
+  }
+
+.faq-input {
+    width: 80%;
+  }
+
+  /* Seguimiento */
+.btn-submit-follow {
+    width: 200px;
+    border-radius: 5px;
+  }
+}
+
+/* Tercer bk */
+@media screen and (max-width: 690px) {
+.header {
+    height: 180px;
+}
+    
+.h-h1 {
+    font-size: 2.5rem;
+    text-decoration: underline $whiteColor;
+}
+    
+.h-h2 {
+    font-size: 1rem;
+}
+
+footer{
+    ul{
+        li{
+            a{
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+
+.footer-cp {
+    font-size: 0.8rem;
+  }
+
+  /* destinos */
+.destinations {
+    font-size: 0.7em;
+    font-weight: 550;
+        figcaption{
+            margin: 10px 0px 10px 0px;
+            font-size: 1.5em;
+        }
+  }
+
+.gallery-title {
+    font-size: 0.7em;
+    -webkit-text-stroke: 0.8px $blackColor;
+    margin-left: 5px;
+}
+
+.container-faq{
+    h2{
+        font-size: 1.9em;
+    }
+  }
+
+.faq-input {
+    width: 90%;
+    padding: 5px;
+  }
+
+  /* Seguimiento */
+.follow-container{
+    h3{
+        font-size: 1.1em;
+    }
+}
+
+.follow-form-input {
+    width: 85%;
+  }
+
+  /* Contacto */
+.menu-contact {
+    margin: 20px;
+    font-size: 1em;
+        h2{
+            font-size: 1.6em;
+        }
+            form{
+                margin-top: 20px;
+            }
+  }
+
+.btn-submit-contact {
+    width: 120px;
+  }
+
+.contact-form-label {
+    font-size: 14px;
+  }
+
+.contact-map {
+    height: 300px;
+  }
+}
+
+/* Cuarto bk */
+@media screen and (max-width: 500px) {
+.h-h1 {
+    font-size: 2rem;
+    text-decoration: underline $whiteColor;
+}
+    
+.h-h2 {
+    font-size: 0.85rem;
+}
+
+footer{
+    ul{
+        li{
+            a{
+                padding: 6px;
+                font-size: 0.85rem;
+            }
+        }
+    }
+    h4{
+        font-size: 2.2rem;
+    }
+}
+
+.footer-svg {
+    width: 50px;
+    margin: 20px;
+}
+
+.footer-cp {
+    font-size: 0.62rem;
+  }
+
+.promotions-box {
+    margin: 25px auto;
+    font-size: 1em;
+  }
+
+.card-promotions {
+    font-size: 1.5em;
+        h3{
+            font-size: 2rem;
+        }
+            h2{
+                font-size: 1.8rem;
+            }
+  }
+
+.gallery-title {
+    font-size: 0.6em;
+  }
+
+  /* destinos */
+.destinations {
+    font-size: 1em;
+    font-weight: $fontBold;
+        figcaption{
+            margin: 10px 0px 10px 0px;
+            font-size: 1.5em;
+        }
+            button{
+                width: 50%;
+            }
+  }
+
+.destinations-box figure {
+    width: 75%;
+  }
+
+.gallery-title {
+    font-size: 0.55em;
+    -webkit-text-stroke: 0.5px $blackColor;
+  }
+
+.container-faq{
+        h2{
+            font-size: 2.4em;
+        }
+  }
+
+.faq-input {
+    width: 100%;
+    padding: 8px;
+  }
+
+/* Seguimiento */
+.follow-container{
+    h3{
+        font-size: 0.85em;
+    }
+}
+
+.btn-submit-follow {
+    width: 180px;
+    padding: 8px 0;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+.follow-form-label {
+    font-size: 14px;
+  }
+
+.follow-form-input {
+    padding: 6px;
+    font-size: 12px;
+  }
+}
+
+/* Quinto bk */
+@media screen and (max-width: 400px) {
+.h-h1 {
+    font-size: 1.6rem;
+    text-decoration: underline $whiteColor;
+}
+    
+.h-h2 {
+    font-size: 0.75rem;
+}
+
+footer{
+    h4{
+        font-size: 2rem;
+    }
+        ul{
+            li{
+                a{
+                    padding: 6px;
+                    font-size: 0.65rem;
+                }
+            }
+        }
+}
+
+.footer-svg {
+    width: 45px;
+  }
+
+.footer-cp {
+    font-size: 0.5rem;
+  }
+
+.promotions-box {
+    margin: 25px auto;
+    font-size: 1em;
+  }
+
+.card-promotions {
+    font-size: 1.1em;
+        h3{
+            font-size: 1.5rem;
+        }
+            h2{
+                font-size: 1.2rem;
+            }
+  }
+
+  /* destinos */
+.destinations {
+    font-size: 0.8em;
+        figcaption{
+            font-size: 1.4em;
+        }
+  }
+
+.gallery-title {
+    font-size: 0.4em;
+    -webkit-text-stroke: 0.3px $blackColor;
+  }
+
+.container-faq{
+    h2{
+        font-size: 2.2em;
+    }
+}
+
+  /* Contacto */
+.menu-contact {
+    font-size: 0.8em;
+        h2{
+            margin: 5px;
+        }
+  }
+
+.btn-submit-contact {
+    width: 30%;
+    font-size: 12px;
+  }
+
+.contact-form-label {
+    font-size: 12px;
+  }
+
+.contact-form-input {
+    width: 90%;
+  }
+  
+.contact-map {
+    height: 200px;
+  }
+
+
+}
