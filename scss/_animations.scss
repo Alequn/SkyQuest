@@ -1,0 +1,14 @@
+@keyframes itemLoad {
+    from{
+        opacity: 0%;
+        
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+.item-load{
+    animation-name: itemLoad;
+    animation-duration: 1.8s;
+}
