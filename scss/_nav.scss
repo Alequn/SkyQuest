@@ -47,10 +47,7 @@ nav{
     background-position: 15% 30%;
     width: 100%;
     height: 373px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    @include flex-box (column,center,center,wrap);
     border-bottom: solid 5px $bgColor;
     h2,h1{
         text-shadow: 10px 0px 10px #0079ad;

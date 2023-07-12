@@ -1,0 +1,50 @@
+.box-gral{
+    background-color: $bgColor;  
+    color: $whiteColor;
+    border: solid 2px $grayColor;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: center;
+    font-weight: $fontBold;
+    font-size: 1.2em;
+        &:hover{
+            background-color: $bgColorHover;
+            transition: background-color 0.3s ease;
+        }
+}
+
+.btn-gral{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    color: $whiteColor;
+    cursor: pointer;
+    border: none;
+        &:hover{
+            transition: all 0.4s ease;
+        }
+}
+
+
+@mixin parrafos ($size,$line,$color,$padding){
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+    padding: $padding;
+}
+
+@mixin flex-box ($direction,$justify,$items,$wrap){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $items;
+    flex-wrap: $wrap;
+}
+
+
+@for $i from 1 through 20{
+    .size-#{$i}{
+        font-size: .25em *$i;
+    }
+}

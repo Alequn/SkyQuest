@@ -1,16 +1,9 @@
 .promotions-box {
-    background-color: $bgColor;
+  @extend .box-gral;
     margin: 50px auto;
-    border-radius: 10px;
-    border: solid 3px $lightGrayColor;
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: 550;
     width: 90%;
     padding: 15px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    @include flex-box (row,center,center,wrap);
   }
 
 .card-promotions {
@@ -36,8 +29,8 @@
               margin-top: 20px;
             }
                 p{
-                  color: $grayColor;
                   margin: 0px 10px;
+                  @include parrafos (auto,auto,$grayColor,2px)
                 }
                     &:hover{
                     -webkit-transform: scale(1.06);
@@ -51,16 +44,10 @@
   }
 
   .btn-card {
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    text-decoration: none;
+    @extend .btn-gral;
     background-color: $redColor;
-    color: $whiteColor;
     border: solid 2px $whiteColor;
-    cursor: pointer;
       &:hover{
         background-color: $darkGrayColor;
-        transition: background-color 0.3s ease;
       }
   }

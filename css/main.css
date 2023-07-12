@@ -1,5 +1,113 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Roboto+Condensed:wght@700&display=swap");
+.box-gral, .menu-contact, .follow-container, .promotions-box {
+  background-color: #323232;
+  color: #fdfdfd;
+  border: solid 2px #dbdbdb;
+  border-radius: 10px;
+  margin: 30px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.box-gral:hover, .menu-contact:hover, .follow-container:hover, .promotions-box:hover {
+  background-color: #434242;
+  transition: background-color 0.3s ease;
+}
+
+.btn-gral, .btn-submit-contact, .btn-submit-follow, .btn-card {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fdfdfd;
+  cursor: pointer;
+  border: none;
+}
+.btn-gral:hover, .btn-submit-contact:hover, .btn-submit-follow:hover, .btn-card:hover {
+  transition: all 0.4s ease;
+}
+
+.size-1 {
+  font-size: 0.25em;
+}
+
+.size-2 {
+  font-size: 0.5em;
+}
+
+.size-3 {
+  font-size: 0.75em;
+}
+
+.size-4 {
+  font-size: 1em;
+}
+
+.size-5 {
+  font-size: 1.25em;
+}
+
+.size-6 {
+  font-size: 1.5em;
+}
+
+.size-7 {
+  font-size: 1.75em;
+}
+
+.size-8 {
+  font-size: 2em;
+}
+
+.size-9 {
+  font-size: 2.25em;
+}
+
+.size-10 {
+  font-size: 2.5em;
+}
+
+.size-11 {
+  font-size: 2.75em;
+}
+
+.size-12 {
+  font-size: 3em;
+}
+
+.size-13 {
+  font-size: 3.25em;
+}
+
+.size-14 {
+  font-size: 3.5em;
+}
+
+.size-15 {
+  font-size: 3.75em;
+}
+
+.size-16 {
+  font-size: 4em;
+}
+
+.size-17 {
+  font-size: 4.25em;
+}
+
+.size-18 {
+  font-size: 4.5em;
+}
+
+.size-19 {
+  font-size: 4.75em;
+}
+
+.size-20 {
+  font-size: 5em;
+}
+
 @keyframes itemLoad {
   from {
     opacity: 0%;
@@ -99,9 +207,10 @@ nav a img:hover {
   width: 100%;
   height: 373px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
   border-bottom: solid 5px #323232;
 }
 .header h2, .header h1 {
@@ -165,18 +274,14 @@ footer ul li a:hover {
 }
 
 .promotions-box {
-  background-color: #323232;
   margin: 50px auto;
-  border-radius: 10px;
-  border: solid 3px #b7b6b6;
-  text-align: center;
-  font-size: 1.2em;
-  font-weight: 550;
   width: 90%;
   padding: 15px 0px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .card-promotions {
@@ -203,8 +308,11 @@ footer ul li a:hover {
   margin-top: 20px;
 }
 .card-promotions p {
-  color: #dbdbdb;
   margin: 0px 10px;
+  font-size: auto;
+  line-height: auto;
+  color: #dbdbdb;
+  padding: 2px;
 }
 .card-promotions:hover {
   -webkit-transform: scale(1.06);
@@ -217,24 +325,19 @@ footer ul li a:hover {
 }
 
 .btn-card {
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 16px;
-  text-decoration: none;
   background-color: red;
-  color: #fdfdfd;
   border: solid 2px #fdfdfd;
-  cursor: pointer;
 }
 .btn-card:hover {
   background-color: rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease;
 }
 
 .destinations-box {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .destinations-box figure {
   width: 25%;
@@ -408,22 +511,15 @@ footer ul li a:hover {
 
 .follow-box {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .follow-container {
-  background-color: #323232;
-  color: #fdfdfd;
-  margin: 30px;
   padding: 40px 15px;
-  border: solid 3px #dbdbdb;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 1.2em;
-  font-weight: 600;
   width: 40%;
 }
 .follow-container h3 {
@@ -457,43 +553,28 @@ footer ul li a:hover {
 .btn-submit-follow {
   width: 100px;
   background: #ff851b;
-  font-size: 16px;
-  border: none;
-  color: #fdfdfd;
-  padding: 10px 0;
-  cursor: pointer;
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  border: solid 1px #000000;
 }
 .btn-submit-follow:hover {
   background: #9c4a02;
   color: #323232;
-  transition: all 0.4s ease;
 }
 
 .menu-contact-flex {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: auto;
   flex-wrap: wrap;
   width: 100%;
 }
 
 .menu-contact {
-  background-color: #323232;
-  color: #fdfdfd;
-  margin: 30px;
   padding: 11px;
-  border: solid 2px #323232;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 1.2em;
-  font-weight: 550;
   width: 44%;
-}
-.menu-contact:hover {
-  background-color: #434242;
-  transition: background-color 0.3s ease;
 }
 .menu-contact h2 {
   color: #00a2e8;
@@ -508,19 +589,14 @@ footer ul li a:hover {
 .btn-submit-contact {
   width: 140px;
   background: #ff851b;
-  font-size: 16px;
-  border: none;
-  color: #fdfdfd;
-  padding: 10px 0;
-  cursor: pointer;
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  border: solid 1px #000000;
 }
 .btn-submit-contact:hover {
   background: #9c4a02;
   color: #323232;
-  transition: all 1s ease;
 }
 
 .contact-form-label {

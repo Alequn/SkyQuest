@@ -1,25 +1,12 @@
 .menu-contact-flex {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    @include flex-box (row,center,auto,wrap);
     width: 100%;
   }
 
   .menu-contact {
-    background-color: $bgColor;
-    color: $whiteColor;
-    margin: 30px;
+    @extend .box-gral;
     padding: 11px;
-    border: solid 2px $bgColor;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: 550;
     width: 44%;
-        &:hover{
-            background-color: $bgColorHover;
-            transition: background-color 0.3s ease;
-        }
             h2{
                 color: $lightBlueColor;
                 font-size: 2em;
@@ -32,20 +19,16 @@
   }
 
   .btn-submit-contact {
+    @extend .btn-gral;
     width: 140px;
     background: $orangeColor;
-    font-size: 16px;
-    border: none;
-    color: $whiteColor;
-    padding: 10px 0;
-    cursor: pointer;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    border: solid 1px $blackColor;
         &:hover{
             background: $brownColor;
             color: $bgColor;
-            transition: all 1s ease;
         }
   }
 

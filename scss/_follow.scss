@@ -1,21 +1,11 @@
 .follow-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-box (row,center,center,wrap);
     width: 100%;
-    flex-wrap: wrap;
   }
 
   .follow-container {
-    background-color: #323232;
-    color: $whiteColor;
-    margin: 30px;
+    @extend .box-gral;
     padding: 40px 15px;
-    border: solid 3px $grayColor;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: $fontBold;
     width: 40%;
         h3{
             color: $whiteColor;
@@ -47,19 +37,15 @@
   }
   
   .btn-submit-follow {
+    @extend .btn-gral;
     width: 100px;
     background: $orangeColor;
-    font-size: 16px;
-    border: none;
-    color: $whiteColor;
-    padding: 10px 0;
-    cursor: pointer;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    border: solid 1px $blackColor;
         &:hover{
             background: $brownColor;
             color: $bgColor;
-            transition: all 0.4s ease;
         }
   }
