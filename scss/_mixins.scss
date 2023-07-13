@@ -48,3 +48,9 @@
         font-size: .25em *$i;
     }
 }
+
+@for $i from 1 through 10{
+    .margin-#{$i}{
+        margin: 5px *$i;
+    }
+}
