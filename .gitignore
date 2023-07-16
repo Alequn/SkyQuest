@@ -3,3 +3,4 @@
 *.vscode
 *.ai
 node_modules/
+*.DS_Store
