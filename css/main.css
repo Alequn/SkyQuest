@@ -616,7 +616,7 @@ footer ul li a:hover {
   padding: 11px;
   width: 44%;
 }
-.menu-contact h2 {
+.menu-contact h2, .menu-contact h3 {
   color: #00a2e8;
   font-size: 2em;
   font-weight: 900;
