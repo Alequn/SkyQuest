@@ -219,6 +219,15 @@ footer {
   color: red !important;
 }
 
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 161, 230, 100%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+  border: 2px solid #00a2e8;
+  border-radius: 15px;
+}
+
 .nav-link:hover {
   color: red;
   transition: 0.4s;
@@ -344,6 +353,7 @@ footer ul li a:hover {
 .card-promotions h2 {
   font-weight: 600;
   font-size: 2rem;
+  font-size: 150%;
   color: #00a2e8;
   margin-top: 20px;
 }
@@ -659,7 +669,7 @@ footer ul li a:hover {
 }
 
 .contact-form-textarea {
-  resize: vertical;
+  resize: none;
   max-height: 150px;
   min-width: 50px;
 }
