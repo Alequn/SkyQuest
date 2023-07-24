@@ -1,26 +1,28 @@
 .destinations-box {
-    @include flex-box (row,center,center,wrap);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
         figure{
-            width: 25%;
+            width: 80%;
          }
   }
 
 .destinations {
     background-color: $bgColor;
     color: $whiteColor;
-    margin: 30px;
+    margin: 30px auto;
     border: solid 2px $bgColor;
     border-radius: 10px 0px;
     text-align: center;
     font-size: 1.3em;
     font-weight: 550;
     width: auto;
+
+    p{
+        padding: 3px;
+    }
         &:hover{
-            -webkit-transform: scale(1.06);
-            transform: scale(1.06);
-            -webkit-transition: 0.3s ease-in-out;
             transition: 0.3s ease-in-out;
-            box-shadow: 5px 5px 5px 5px $blackColor;
+            box-shadow: 10px 10px 10px 10px $bgPCard;
         }
             img{
                 width: 100%;

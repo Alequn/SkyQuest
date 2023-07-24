@@ -336,7 +336,6 @@ footer ul li a:hover {
 .card-promotions {
   color: #fdfdfd;
   margin: 30px;
-  font-size: 1.2em;
   font-weight: 0;
   width: 25%;
 }
@@ -346,19 +345,19 @@ footer ul li a:hover {
 }
 .card-promotions h3 {
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.5em;
   color: #e24040;
   margin-top: 10px;
 }
 .card-promotions h2 {
   font-weight: 600;
-  font-size: 2rem;
-  font-size: 150%;
+  font-size: 1.3em;
   color: #00a2e8;
   margin-top: 20px;
 }
 .card-promotions p {
   margin: 0px 10px;
+  font-size: 0.9em;
   font-size: auto;
   line-height: auto;
   color: #dbdbdb;
@@ -383,20 +382,17 @@ footer ul li a:hover {
 }
 
 .destinations-box {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .destinations-box figure {
-  width: 25%;
+  width: 80%;
 }
 
 .destinations {
   background-color: #323232;
   color: #fdfdfd;
-  margin: 30px;
+  margin: 30px auto;
   border: solid 2px #323232;
   border-radius: 10px 0px;
   text-align: center;
@@ -404,12 +400,12 @@ footer ul li a:hover {
   font-weight: 550;
   width: auto;
 }
+.destinations p {
+  padding: 3px;
+}
 .destinations:hover {
-  -webkit-transform: scale(1.06);
-  transform: scale(1.06);
-  -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-  box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: 10px 10px 10px 10px #4e4e4e;
 }
 .destinations img {
   width: 100%;
@@ -697,7 +693,6 @@ footer ul li a:hover {
   }
   .promotions-box {
     margin: 25px auto;
-    font-size: 1em;
   }
   .card-promotions {
     font-size: 1em;
@@ -798,6 +793,10 @@ footer ul li a:hover {
     font-size: 0.8em;
     font-weight: 600;
   }
+  .destinations p {
+    font-size: 1.3em;
+    padding: 5px;
+  }
   .destinations figcaption {
     margin: 10px 0px 10px 0px;
     font-size: 2em;
@@ -805,9 +804,10 @@ footer ul li a:hover {
   .destinations button {
     padding: 6px 16px;
     font-size: 12px;
+    width: 50%;
   }
-  .destinations-box figure {
-    width: 37.5%;
+  .destinations-box {
+    grid-template-columns: repeat(2, 1fr);
   }
   .grid-destinations-container {
     padding: 30px;
@@ -970,14 +970,11 @@ footer ul li a:hover {
     font-weight: 600;
   }
   .destinations figcaption {
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 5px 0px;
     font-size: 1.5em;
   }
-  .destinations button {
-    width: 50%;
-  }
-  .destinations-box figure {
-    width: 75%;
+  .destinations-box {
+    grid-template-columns: repeat(1, 1fr);
   }
   .gallery-title {
     font-size: 0.55em;
@@ -1048,7 +1045,7 @@ footer ul li a:hover {
     font-size: 0.8em;
   }
   .destinations figcaption {
-    font-size: 1.4em;
+    font-size: 1.68em;
   }
   .gallery-title {
     font-size: 0.4em;
