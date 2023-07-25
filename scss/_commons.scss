@@ -46,3 +46,46 @@
   .mb-15px {
     margin-bottom: 15px;
   }
+
+//Error pages
+
+.bg-error-pages{
+  background-image: $linearErrorColor;
+}
+
+.error-container{
+  @include flex-box (column,start,center,wrap);
+
+    h1{
+      font-size:5.5em;
+      margin: 50px 0px;
+      color: $blackColor;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-shadow: $shadowBlack;
+    }
+
+        h2{
+          font-size:3em;
+          margin: 20px 0px;
+          color: $blackColor;
+          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          text-shadow: $shadowBlack;
+        }
+
+          a{
+            width: 40%;
+              img{
+                width: 100%;
+              }
+          }
+
+                p{
+                  text-align: center;
+                  font-size: 2em;
+                  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                  color: $blackColor;
+                  padding: 20px;
+                  font-weight: $fontBold;
+                  text-shadow: $shadowBlack;
+                }
+}

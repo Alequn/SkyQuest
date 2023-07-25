@@ -210,6 +210,47 @@ h1 {
   margin-bottom: 15px;
 }
 
+.bg-error-pages {
+  background-image: linear-gradient(to bottom, #FFD700, #ffa135);
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.error-container h1 {
+  font-size: 5.5em;
+  margin: 50px 0px;
+  color: #000000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.error-container h2 {
+  font-size: 3em;
+  margin: 20px 0px;
+  color: #000000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.error-container a {
+  width: 40%;
+}
+.error-container a img {
+  width: 100%;
+}
+.error-container p {
+  text-align: center;
+  font-size: 2em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #000000;
+  padding: 20px;
+  font-weight: 600;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
 nav,
 footer {
   background-color: #323232;
@@ -404,7 +445,6 @@ footer ul li a:hover {
   padding: 3px;
 }
 .destinations:hover {
-  transition: 0.3s ease-in-out;
   box-shadow: 10px 10px 10px 10px #4e4e4e;
 }
 .destinations img {
