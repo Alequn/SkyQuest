@@ -223,12 +223,13 @@ h1 {
 }
 .error-container h1 {
   font-size: 5.5em;
-  margin: 50px 0px;
+  margin: 40px 0px;
   color: #000000;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 .error-container h2 {
+  -webkit-text-stroke: 1px #000000;
   font-size: 3em;
   margin: 20px 0px;
   color: #000000;
@@ -800,6 +801,21 @@ footer ul li a:hover {
   .menu-contact {
     width: 90%;
   }
+  .error-container h1 {
+    font-size: 5em;
+    margin: 40px 0px;
+  }
+  .error-container h2 {
+    font-size: 3em;
+    margin: 20px 0px;
+  }
+  .error-container a {
+    width: 60%;
+  }
+  .error-container p {
+    font-size: 1.7em;
+    padding: 20px;
+  }
 }
 /* Segundo bk */
 @media screen and (max-width: 890px) {
@@ -896,6 +912,21 @@ footer ul li a:hover {
   .btn-submit-follow {
     width: 200px;
     border-radius: 5px;
+  }
+  .error-container h1 {
+    font-size: 4.5em;
+    margin: 40px 0px;
+  }
+  .error-container h2 {
+    font-size: 2.5em;
+    margin: 20px 0px;
+  }
+  .error-container a {
+    width: 70%;
+  }
+  .error-container p {
+    font-size: 1.3em;
+    padding: 20px;
   }
 }
 /* Tercer bk */
@@ -1044,6 +1075,20 @@ footer ul li a:hover {
     padding: 6px;
     font-size: 12px;
   }
+  .error-container h1 {
+    font-size: 4em;
+    margin: 20px 0px;
+  }
+  .error-container h2 {
+    font-size: 2em;
+    margin: 20px 0px;
+  }
+  .error-container a {
+    width: 90%;
+  }
+  .error-container p {
+    font-size: 1.1em;
+  }
 }
 /* Quinto bk */
 @media screen and (max-width: 400px) {
@@ -1113,6 +1158,15 @@ footer ul li a:hover {
   }
   .contact-map {
     height: 200px;
+  }
+  .error-container h1 {
+    font-size: 3em;
+  }
+  .error-container h2 {
+    font-size: 1.7em;
+  }
+  .error-container p {
+    font-size: 1em;
   }
 }
 

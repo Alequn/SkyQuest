@@ -92,6 +92,30 @@
   .menu-contact {
     width: 90%;
   }
+
+ 
+//   Error 404
+.error-container{
+      h1{
+        font-size:5em;
+        margin: 40px 0px;
+      }
+  
+          h2{
+            font-size:3em;
+            margin: 20px 0px;
+          }
+  
+            a{
+              width: 60%;
+            }
+  
+                  p{
+                    font-size: 1.7em;
+                    padding: 20px;
+                  }
+  }
+
 }
 
 /* Segundo bk */
@@ -203,6 +227,29 @@
     width: 200px;
     border-radius: 5px;
   }
+
+  //   Error 404
+.error-container{
+    h1{
+      font-size:4.5em;
+      margin: 40px 0px;
+    }
+
+        h2{
+          font-size:2.5em;
+          margin: 20px 0px;
+        }
+
+          a{
+            width: 70%;
+          }
+
+                p{
+                  font-size: 1.3em;
+                  padding: 20px;
+                }
+}
+
 }
 
 /* Tercer bk */
@@ -402,6 +449,28 @@ footer{
     padding: 6px;
     font-size: 12px;
   }
+
+
+.error-container{
+    h1{
+      font-size:4em;
+      margin: 20px 0px;
+    }
+
+        h2{
+          font-size:2em;
+          margin: 20px 0px;
+        }
+
+          a{
+            width: 90%;
+          }
+
+                p{
+                  font-size: 1.1em;
+                }
+}
+
 }
 
 /* Quinto bk */
@@ -496,5 +565,18 @@ footer{
     height: 200px;
   }
 
+  .error-container{
+    h1{
+      font-size:3em;
+    }
+
+        h2{
+          font-size:1.7em;
+        }
+
+                p{
+                  font-size: 1em;
+                }
+}
 
 }

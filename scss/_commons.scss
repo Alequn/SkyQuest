@@ -58,13 +58,14 @@
 
     h1{
       font-size:5.5em;
-      margin: 50px 0px;
+      margin: 40px 0px;
       color: $blackColor;
       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       text-shadow: $shadowBlack;
     }
 
         h2{
+          -webkit-text-stroke: 1px $blackColor;
           font-size:3em;
           margin: 20px 0px;
           color: $blackColor;
