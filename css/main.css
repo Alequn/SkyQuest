@@ -258,7 +258,7 @@ footer {
 }
 
 .active {
-  color: red !important;
+  color: #ff0000 !important;
 }
 
 .navbar-toggler-icon {
@@ -271,12 +271,26 @@ footer {
 }
 
 .nav-link:hover {
-  color: red;
+  color: #ff0000;
   transition: 0.4s;
 }
 
 nav ul li a {
   margin-right: 15px;
+  position: relative;
+}
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  background-color: #00A2E8;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+nav ul li a:hover:after {
+  width: 100%;
 }
 
 nav a img {
@@ -314,16 +328,16 @@ nav a img:hover {
 
 .h-h1 {
   margin-bottom: 20px;
-  font-size: 6rem;
+  font-size: 6em;
   text-decoration: underline #fdfdfd;
 }
 
 .h-h2 {
-  font-size: 2.5rem;
+  font-size: 2.5em;
 }
 
 footer h4 {
-  font-size: 2.5rem;
+  font-size: 2.5em;
   font-weight: 600;
   color: #dbdbdb;
   margin-top: 20px;
@@ -337,15 +351,29 @@ footer ul li a {
   color: #b7b6b6;
   padding: 15px;
   font-weight: 600;
+  position: relative;
 }
 footer ul li a:hover {
-  color: red;
+  color: #ff0000;
   transition: 0.4s;
+}
+footer ul li a:after {
+  content: "";
+  position: absolute;
+  background-color: #00A2E8;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+footer ul li a:hover:after {
+  width: 100%;
 }
 
 .footer-cp {
   color: #b7b6b6;
-  font-size: 1rem;
+  font-size: 1em;
   margin-top: 20px;
 }
 
@@ -416,7 +444,7 @@ footer ul li a:hover {
 }
 
 .btn-card {
-  background-color: red;
+  background-color: #ff0000;
   border: solid 2px #fdfdfd;
 }
 .btn-card:hover {
@@ -578,8 +606,8 @@ footer ul li a:hover {
   border-bottom: 1px solid #000000;
 }
 .container-faq-box:hover {
-  border-bottom: 1px solid red;
-  color: red;
+  border-bottom: 1px solid #ff0000;
+  color: #ff0000;
 }
 
 .faq-input {

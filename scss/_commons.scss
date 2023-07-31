@@ -1,5 +1,5 @@
 * {
-    font-family: "Montserrat", sans-serif;
+    font-family: $mainFont;
     padding: 0;
     margin: 0;
   }
@@ -60,7 +60,7 @@
       font-size:5.5em;
       margin: 40px 0px;
       color: $blackColor;
-      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-family:$errorFont;
       text-shadow: $shadowBlack;
     }
 
@@ -69,7 +69,7 @@
           font-size:3em;
           margin: 20px 0px;
           color: $blackColor;
-          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-family: $errorFont;
           text-shadow: $shadowBlack;
         }
 
@@ -83,7 +83,7 @@
                 p{
                   text-align: center;
                   font-size: 2em;
-                  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                  font-family: $errorFont;
                   color: $blackColor;
                   padding: 20px;
                   font-weight: $fontBold;

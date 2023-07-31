@@ -3,7 +3,7 @@ $bgColor: #323232;
 $bgColorHover:#434242;
 $mainColor:#00A2E8;
 $secondaryColor:#C0C0C0;
-$redColor: red;
+$redColor: #ff0000;
 $lightRedColor:#e24040;
 $whiteColor:#fdfdfd;
 $usdColor:#008000;
@@ -22,8 +22,11 @@ $linearErrorColor:linear-gradient(to bottom, #FFD700, #ffa135);
 
 // Fonts
 $mainFont: "Montserrat", sans-serif;
+$errorFont: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$galleryFont: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 $fontLight:200;
 $fontBold:600;
 $fontDarkBold:900;
 
 $shadowBlack:5px 5px 10px rgba(0, 0, 0, 0.5);
+$shadowHeader:10px 0px 10px #0079ad;

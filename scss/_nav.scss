@@ -26,6 +26,22 @@ nav{
         li{
             a{
                 margin-right: 15px;
+                position: relative;
+            }
+
+            a:after{
+                content: "";
+                position: absolute;
+                background-color: $mainColor;
+                height: 2px;
+                width: 0;
+                left: 0;
+                bottom: 0;
+                transition: 0.5s;
+            }
+
+            a:hover:after{
+                width: 100%;
             }
         }
     }
@@ -59,22 +75,22 @@ nav{
     @include flex-box (column,center,center,wrap);
     border-bottom: solid 5px $bgColor;
     h2,h1{
-        text-shadow: 10px 0px 10px #0079ad;
+        text-shadow: $shadowHeader;
         color: $whiteColor;
         font-weight: $fontBold;
-        -webkit-text-stroke: 1.5px #00a2e8;
-        font-family: "Montserrat", sans-serif;
+        -webkit-text-stroke: 1.5px $lightBlueColor;
+        font-family: $mainFont;
     }
   }
 
 .h-h1 {
     margin-bottom: 20px;
-    font-size: 6rem;
+    font-size: 6em;
     text-decoration: underline $whiteColor;
   }
   
 .h-h2 {
-    font-size: 2.5rem;
+    font-size: 2.5em;
   }
 
 
@@ -82,7 +98,7 @@ nav{
 
 footer{
     h4{
-        font-size: 2.5rem;
+        font-size: 2.5em;
         font-weight: 600;
         color: $grayColor;
         margin-top: 20px;
@@ -95,11 +111,27 @@ footer{
                 text-decoration: none;
                 color: $lightGrayColor;
                 padding: 15px;
-                font-weight: 600;
+                font-weight: $fontBold;
+                position: relative;
             }
             a:hover{
                 color: $redColor;
                 transition: 0.4s;
+            }
+
+            a:after{
+                content: "";
+                position: absolute;
+                background-color: $mainColor;
+                height: 2px;
+                width: 0;
+                left: 0;
+                bottom: 0;
+                transition: 0.5s;
+            }
+
+            a:hover:after{
+                width: 100%;
             }
         }
     }
@@ -107,7 +139,7 @@ footer{
 
 .footer-cp {
     color: $lightGrayColor;
-    font-size: 1rem;
+    font-size: 1em;
     margin-top: 20px;
   }
 
@@ -125,4 +157,3 @@ footer{
         border-radius: 25px 0px;
     }
   }
-// PREGUNTAR NO FUNCIONA HOVER!
