@@ -24,9 +24,21 @@ $linearErrorColor:linear-gradient(to bottom, #FFD700, #ffa135);
 $mainFont: "Montserrat", sans-serif;
 $errorFont: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 $galleryFont: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+// Fonts weigth
 $fontLight:200;
 $fontBold:600;
 $fontDarkBold:900;
 
+// Shadows
 $shadowBlack:5px 5px 10px rgba(0, 0, 0, 0.5);
 $shadowHeader:10px 0px 10px #0079ad;
+
+// Font Sizes
+$sfont:1em;
+$smfont:2em;
+$mfont:3em;
+$xlfont:4em;
+$xxlfont:5em;
+$bfont:6em;
+$inputFont:14px;

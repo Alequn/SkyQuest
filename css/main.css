@@ -18,7 +18,7 @@
 .btn-gral, .btn-submit-contact, .btn-submit-follow, .btn-card {
   padding: 10px 20px;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1em;
   text-decoration: none;
   color: #fdfdfd;
   cursor: pointer;
@@ -168,7 +168,7 @@
 }
 
 body {
-  background-image: url(../img/background/background.png);
+  background-image: url(../img/background/background.webp);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -427,7 +427,7 @@ footer ul li a:hover:after {
 }
 .card-promotions p {
   margin: 0px 10px;
-  font-size: 0.9em;
+  font-size: 1em;
   font-size: auto;
   line-height: auto;
   color: #dbdbdb;
@@ -467,7 +467,7 @@ footer ul li a:hover:after {
   border-radius: 10px 0px;
   text-align: center;
   font-size: 1.3em;
-  font-weight: 550;
+  font-weight: 600;
   width: auto;
 }
 .destinations p {
@@ -648,7 +648,7 @@ footer ul li a:hover:after {
 .follow-form-label {
   display: block;
   color: #ff851b;
-  font-size: 16px;
+  font-size: 1em;
   position: relative;
 }
 
@@ -717,7 +717,7 @@ footer ul li a:hover:after {
 .contact-form-label {
   display: block;
   color: #ff851b;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .contact-form-input {
@@ -754,11 +754,11 @@ footer ul li a:hover:after {
   }
   .h-h1 {
     margin-bottom: 10px;
-    font-size: 4.5rem;
+    font-size: 4.5em;
     text-decoration: underline #fdfdfd;
   }
   .h-h2 {
-    font-size: 1.8rem;
+    font-size: 1.8em;
   }
   .promotions-box {
     margin: 25px auto;
@@ -768,10 +768,10 @@ footer ul li a:hover:after {
     width: 25%;
   }
   .card-promotions h3 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
   }
   .card-promotions h2 {
-    font-size: 1.5rem;
+    font-size: 1.2em;
   }
   /* destinos */
   .destinations {
@@ -851,11 +851,11 @@ footer ul li a:hover:after {
     height: 280px;
   }
   .h-h1 {
-    font-size: 3.5rem;
+    font-size: 3.5em;
     text-decoration: underline #fdfdfd;
   }
   .h-h2 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
   }
   .promotions-box {
     margin: 25px auto;
@@ -867,10 +867,10 @@ footer ul li a:hover:after {
     border-bottom: 5px solid #e24040;
   }
   .card-promotions h3 {
-    font-size: 2.5rem;
+    font-size: 2.5em;
   }
   .card-promotions h2 {
-    font-size: 2.5rem;
+    font-size: 2.5em;
   }
   /* destinos */
   .destinations {
@@ -963,22 +963,22 @@ footer ul li a:hover:after {
     height: 180px;
   }
   .h-h1 {
-    font-size: 2.5rem;
+    font-size: 2.5em;
     text-decoration: underline #fdfdfd;
   }
   .h-h2 {
-    font-size: 1rem;
+    font-size: 1em;
   }
   footer ul li a {
-    font-size: 0.9rem;
+    font-size: 0.9em;
   }
   .footer-cp {
-    font-size: 0.8rem;
+    font-size: 0.8em;
   }
   /* destinos */
   .destinations {
     font-size: 0.7em;
-    font-weight: 550;
+    font-weight: 600;
   }
   .destinations figcaption {
     margin: 10px 0px 10px 0px;
@@ -1027,25 +1027,25 @@ footer ul li a:hover:after {
 /* Cuarto bk */
 @media screen and (max-width: 500px) {
   .h-h1 {
-    font-size: 2rem;
+    font-size: 2em;
     text-decoration: underline #fdfdfd;
   }
   .h-h2 {
-    font-size: 0.85rem;
+    font-size: 0.85em;
   }
   footer ul li a {
     padding: 6px;
-    font-size: 0.85rem;
+    font-size: 0.85em;
   }
   footer h4 {
-    font-size: 2.2rem;
+    font-size: 2.2em;
   }
   .footer-svg {
     width: 50px;
     margin: 20px;
   }
   .footer-cp {
-    font-size: 0.62rem;
+    font-size: 0.62em;
   }
   .promotions-box {
     margin: 25px auto;
@@ -1055,10 +1055,10 @@ footer ul li a:hover:after {
     font-size: 1.5em;
   }
   .card-promotions h3 {
-    font-size: 2rem;
+    font-size: 2em;
   }
   .card-promotions h2 {
-    font-size: 1.8rem;
+    font-size: 1.8em;
   }
   .gallery-title {
     font-size: 0.6em;
@@ -1121,18 +1121,18 @@ footer ul li a:hover:after {
 /* Quinto bk */
 @media screen and (max-width: 400px) {
   .h-h1 {
-    font-size: 1.6rem;
+    font-size: 1.6em;
     text-decoration: underline #fdfdfd;
   }
   .h-h2 {
-    font-size: 0.75rem;
+    font-size: 0.75em;
   }
   footer h4 {
-    font-size: 2rem;
+    font-size: 2em;
   }
   footer ul li a {
     padding: 6px;
-    font-size: 0.65rem;
+    font-size: 0.65em;
   }
   .footer-svg {
     width: 45px;
@@ -1148,10 +1148,10 @@ footer ul li a:hover:after {
     font-size: 1.1em;
   }
   .card-promotions h3 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
   }
   .card-promotions h2 {
-    font-size: 1.2rem;
+    font-size: 1.2em;
   }
   /* destinos */
   .destinations {

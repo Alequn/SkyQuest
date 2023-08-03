@@ -85,12 +85,12 @@ nav{
 
 .h-h1 {
     margin-bottom: 20px;
-    font-size: 6em;
+    font-size: $bfont;
     text-decoration: underline $whiteColor;
   }
   
 .h-h2 {
-    font-size: 2.5em;
+    font-size: $smfont+0.5em;
   }
 
 
@@ -98,8 +98,8 @@ nav{
 
 footer{
     h4{
-        font-size: 2.5em;
-        font-weight: 600;
+        font-size: $smfont+0.5em;
+        font-weight: $fontBold;
         color: $grayColor;
         margin-top: 20px;
     }
@@ -139,7 +139,7 @@ footer{
 
 .footer-cp {
     color: $lightGrayColor;
-    font-size: 1em;
+    font-size: $sfont;
     margin-top: 20px;
   }
 

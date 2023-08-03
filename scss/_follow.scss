@@ -11,7 +11,7 @@
             color: $whiteColor;
             margin-bottom: 30px;
             font-weight: $fontBold;
-            font-size: 1.4em;
+            font-size: $sfont+0.4em;
             text-shadow: $lightBlueColor 5px 5px 8px;
         }
   }
@@ -19,7 +19,7 @@
   .follow-form-label {
     display: block;
     color: $orangeColor;
-    font-size: 16px;
+    font-size: $sfont;
     position: relative;
   }
   
@@ -32,7 +32,7 @@
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 2px;
-    font-size: 14px;
+    font-size: $inputFont;
     color: $whiteColor;
   }
   

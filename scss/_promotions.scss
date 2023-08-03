@@ -17,19 +17,19 @@
       }
          h3{
           font-weight: $fontBold;
-          font-size: 1.5em;
+          font-size: $sfont+0.5em;
           color: $lightRedColor;
           margin-top: 10px;
         }
             h2{
               font-weight: $fontBold;
-              font-size: 1.3em;
+              font-size: $sfont+0.3em;
               color: $lightBlueColor;
               margin-top: 20px;
             }
                 p{
                   margin: 0px 10px;
-                  font-size: .9em;
+                  font-size: $sfont;
                   @include parrafos (auto,auto,$grayColor,2px)
                 }
                     &:hover{

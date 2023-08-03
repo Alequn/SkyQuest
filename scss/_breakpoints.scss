@@ -7,12 +7,12 @@
 
 .h-h1 {
         margin-bottom: 10px;
-        font-size: 4.5rem;
+        font-size: $xlfont+0.5em;
         text-decoration: underline $whiteColor;
       }
     
 .h-h2 {
-        font-size: 1.8rem;
+        font-size: $sfont+0.8em;
       }
 
 .promotions-box {
@@ -20,28 +20,28 @@
       }
 
 .card-promotions {
-        font-size: 1em;
+        font-size: $sfont;
         width: 25%;
             h3{
-                font-size: 1.5rem;
+                font-size: $sfont+0.5em;
             }
                 h2{
-                    font-size: 1.5rem;
+                    font-size: $sfont+0.2em;
                 }
       }
 
   /* destinos */
 .destinations {
-    font-size: 1em;
+    font-size: $sfont;
     font-weight: $fontBold;
         figcaption{
             margin: 10px 0px 10px 0px;
-            font-size: 1.2em;
+            font-size: $sfont+0.2em;
         }
   }
 
 .gallery-title {
-    font-size: 1em;
+    font-size: $sfont;
   }
 
 .gallery-item {
@@ -97,12 +97,12 @@
 //   Error 404
 .error-container{
       h1{
-        font-size:5em;
+        font-size: $xxlfont;
         margin: 40px 0px;
       }
   
           h2{
-            font-size:3em;
+            font-size: $mfont;
             margin: 20px 0px;
           }
   
@@ -111,7 +111,7 @@
             }
   
                   p{
-                    font-size: 1.7em;
+                    font-size: $sfont+0.7em;
                     padding: 20px;
                   }
   }
@@ -125,28 +125,28 @@
       }
     
 .h-h1 {
-        font-size: 3.5rem;
+        font-size: $mfont+0.5em;
         text-decoration: underline $whiteColor;
       }
     
 .h-h2 {
-        font-size: 1.5rem;
+        font-size: $sfont+0.5;
       }
     
 .promotions-box {
         margin: 25px auto;
-        font-size: 1em;
+        font-size: $sfont;
       }
 
 .card-promotions {
-        font-size: 1.5em;
+        font-size: $sfont+0.5;
         width: 75%;
         border-bottom: 5px solid $lightRedColor;
             h3{
-                font-size: 2.5rem;
+                font-size: $smfont+0.5;
             }
                 h2{
-                    font-size: 2.5rem;
+                    font-size: $smfont+0.5;
                 }
       }
 
@@ -156,12 +156,12 @@
     font-weight: $fontBold;
 
     p{
-        font-size: 1.3em;
+        font-size: $sfont+0.3;
         padding: 5px;
     }
         figcaption{
             margin: 10px 0px 10px 0px;
-            font-size: 2em;
+            font-size: $smfont;
         }
             button{
                 padding: 6px 16px;
@@ -231,12 +231,12 @@
   //   Error 404
 .error-container{
     h1{
-      font-size:4.5em;
+      font-size: $xlfont+0.5em;
       margin: 40px 0px;
     }
 
         h2{
-          font-size:2.5em;
+          font-size: $smfont+0.5em;
           margin: 20px 0px;
         }
 
@@ -245,7 +245,7 @@
           }
 
                 p{
-                  font-size: 1.3em;
+                  font-size: $sfont+0.3em;
                   padding: 20px;
                 }
 }
@@ -259,35 +259,35 @@
 }
     
 .h-h1 {
-    font-size: 2.5rem;
+    font-size: $smfont+0.5;
     text-decoration: underline $whiteColor;
 }
     
 .h-h2 {
-    font-size: 1rem;
+    font-size: $sfont;
 }
 
 footer{
     ul{
         li{
             a{
-                font-size: 0.9rem;
+                font-size: 0.9em;
             }
         }
     }
 }
 
 .footer-cp {
-    font-size: 0.8rem;
+    font-size: 0.8em;
   }
 
   /* destinos */
 .destinations {
     font-size: 0.7em;
-    font-weight: 550;
+    font-weight: $fontBold;
         figcaption{
             margin: 10px 0px 10px 0px;
-            font-size: 1.5em;
+            font-size: $sfont+0.5em;
         }
   }
 
@@ -299,7 +299,7 @@ footer{
 
 .container-faq{
     h2{
-        font-size: 1.9em;
+        font-size: $sfont+0.9em;
     }
   }
 
@@ -311,7 +311,7 @@ footer{
   /* Seguimiento */
 .follow-container{
     h3{
-        font-size: 1.1em;
+        font-size: $sfont+0.1em;
     }
 }
 
@@ -322,9 +322,9 @@ footer{
   /* Contacto */
 .menu-contact {
     margin: 20px;
-    font-size: 1em;
+    font-size: $sfont;
         h2{
-            font-size: 1.6em;
+            font-size: $sfont+0.6em;
         }
             form{
                 margin-top: 20px;
@@ -336,7 +336,7 @@ footer{
   }
 
 .contact-form-label {
-    font-size: 14px;
+    font-size: $inputFont;
   }
 
 .contact-map {
@@ -347,12 +347,12 @@ footer{
 /* Cuarto bk */
 @media screen and (max-width: 500px) {
 .h-h1 {
-    font-size: 2rem;
+    font-size: $smfont;
     text-decoration: underline $whiteColor;
 }
     
 .h-h2 {
-    font-size: 0.85rem;
+    font-size: 0.85em;
 }
 
 footer{
@@ -360,12 +360,12 @@ footer{
         li{
             a{
                 padding: 6px;
-                font-size: 0.85rem;
+                font-size: 0.85em;
             }
         }
     }
     h4{
-        font-size: 2.2rem;
+        font-size: $smfont+0.2em;
     }
 }
 
@@ -375,21 +375,21 @@ footer{
 }
 
 .footer-cp {
-    font-size: 0.62rem;
+    font-size: 0.62em;
   }
 
 .promotions-box {
     margin: 25px auto;
-    font-size: 1em;
+    font-size: $sfont;
   }
 
 .card-promotions {
-    font-size: 1.5em;
+    font-size: $sfont+0.5em;
         h3{
-            font-size: 2rem;
+            font-size: $smfont;
         }
             h2{
-                font-size: 1.8rem;
+                font-size: $sfont+0.8em;
             }
   }
 
@@ -399,11 +399,11 @@ footer{
 
   /* destinos */
 .destinations {
-    font-size: 1em;
+    font-size: $sfont;
     font-weight: $fontBold;
         figcaption{
             margin: 10px 0px 5px 0px;
-            font-size: 1.5em;
+            font-size: $sfont+0.5em;
         }
   }
 
@@ -418,7 +418,7 @@ footer{
 
 .container-faq{
         h2{
-            font-size: 2.4em;
+            font-size: $smfont+0.4em;
         }
   }
 
@@ -442,7 +442,7 @@ footer{
   }
 
 .follow-form-label {
-    font-size: 14px;
+    font-size: $inputFont;
   }
 
 .follow-form-input {
@@ -453,12 +453,12 @@ footer{
 
 .error-container{
     h1{
-      font-size:4em;
+      font-size: $xlfont;
       margin: 20px 0px;
     }
 
         h2{
-          font-size:2em;
+          font-size: $smfont;
           margin: 20px 0px;
         }
 
@@ -467,7 +467,7 @@ footer{
           }
 
                 p{
-                  font-size: 1.1em;
+                  font-size: $sfont+0.1em;
                 }
 }
 
@@ -476,23 +476,23 @@ footer{
 /* Quinto bk */
 @media screen and (max-width: 400px) {
 .h-h1 {
-    font-size: 1.6rem;
+    font-size: $sfont+0.6em;
     text-decoration: underline $whiteColor;
 }
     
 .h-h2 {
-    font-size: 0.75rem;
+    font-size: 0.75em;
 }
 
 footer{
     h4{
-        font-size: 2rem;
+        font-size: $smfont;
     }
         ul{
             li{
                 a{
                     padding: 6px;
-                    font-size: 0.65rem;
+                    font-size: 0.65em;
                 }
             }
         }
@@ -508,16 +508,16 @@ footer{
 
 .promotions-box {
     margin: 25px auto;
-    font-size: 1em;
+    font-size: $sfont;
   }
 
 .card-promotions {
-    font-size: 1.1em;
+    font-size: $sfont+0.1em;
         h3{
-            font-size: 1.5rem;
+            font-size: $sfont+0.5em;
         }
             h2{
-                font-size: 1.2rem;
+                font-size: $sfont+0.2em;
             }
   }
 
@@ -525,7 +525,7 @@ footer{
 .destinations {
     font-size: 0.8em;
         figcaption{
-            font-size: 1.68em;
+            font-size: $sfont+0.68em;
         }
   }
 
@@ -536,7 +536,7 @@ footer{
 
 .container-faq{
     h2{
-        font-size: 2.2em;
+        font-size: $smfont+0.2em;
     }
 }
 
@@ -567,15 +567,15 @@ footer{
 
   .error-container{
     h1{
-      font-size:3em;
+      font-size: $mfont;
     }
 
         h2{
-          font-size:1.7em;
+          font-size: $sfont+0.7em;
         }
 
                 p{
-                  font-size: 1em;
+                  font-size: $sfont;
                 }
 }
 

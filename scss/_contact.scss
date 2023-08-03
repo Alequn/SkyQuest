@@ -9,7 +9,7 @@
     width: 44%;
             h2, h3{
                 color: $lightBlueColor;
-                font-size: 2em;
+                font-size: $smfont;
                 font-weight: $fontDarkBold;
                 -webkit-text-stroke: 1px $blackColor;
             }
@@ -35,7 +35,7 @@
   .contact-form-label {
     display: block;
     color: $orangeColor;
-    font-size: 16px;
+    font-size: $sfont;
   }
   
   .contact-form-input {
@@ -47,7 +47,7 @@
     padding: 10px;
     margin-bottom: 30px;
     border-radius: 2px;
-    font-size: 14px;
+    font-size: $inputFont;
     color: $whiteColor;
   }
   

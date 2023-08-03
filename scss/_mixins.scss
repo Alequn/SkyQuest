@@ -6,7 +6,7 @@
     margin: 30px;
     text-align: center;
     font-weight: $fontBold;
-    font-size: 1.2em;
+    font-size: $sfont+0.2em;
         &:hover{
             background-color: $bgColorHover;
             transition: background-color 0.3s ease;
@@ -16,7 +16,7 @@
 .btn-gral{
     padding: 10px 20px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: $sfont;
     text-decoration: none;
     color: $whiteColor;
     cursor: pointer;

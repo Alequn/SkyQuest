@@ -5,7 +5,7 @@
   }
   
   body {
-    background-image: url(../img/background/background.png);
+    background-image: url(../img/background/background.webp);
     background-attachment: fixed;
     background-size: cover;
   }
@@ -57,7 +57,7 @@
   @include flex-box (column,start,center,wrap);
 
     h1{
-      font-size:5.5em;
+      font-size: $xxlfont+0.5em;
       margin: 40px 0px;
       color: $blackColor;
       font-family:$errorFont;
@@ -66,7 +66,7 @@
 
         h2{
           -webkit-text-stroke: 1px $blackColor;
-          font-size:3em;
+          font-size: $mfont;
           margin: 20px 0px;
           color: $blackColor;
           font-family: $errorFont;
@@ -82,7 +82,7 @@
 
                 p{
                   text-align: center;
-                  font-size: 2em;
+                  font-size: $smfont;
                   font-family: $errorFont;
                   color: $blackColor;
                   padding: 20px;

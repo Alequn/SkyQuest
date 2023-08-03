@@ -13,8 +13,8 @@
     border: solid 2px $bgColor;
     border-radius: 10px 0px;
     text-align: center;
-    font-size: 1.3em;
-    font-weight: 550;
+    font-size: $sfont+0.3em;
+    font-weight: $fontBold;
     width: auto;
 
     p{
@@ -30,7 +30,7 @@
                 figcaption{
                     color: $lightBlueColor;
                     margin: 15px 0px 10px 0px;
-                    font-size: 1.5em;
+                    font-size: $sfont+0.5em;
                 }
   }
 
@@ -68,7 +68,7 @@
     color: $whiteColor;
     font-weight: $fontDarkBold;
     font-family: $galleryFont;
-    font-size: 2em;
+    font-size: $smfont;
     -webkit-text-stroke: 1.5px $blackColor;
     border-radius: 10px 0px;
     border: 2px solid $blackColor;
