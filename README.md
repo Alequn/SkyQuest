@@ -33,3 +33,7 @@ Entrega final número #4/4.
 
 Tengo masitas para Laura y Timo 😅😂😎
 Gracias a ambos por la paciencia y dedicación que tienen, todo se hizo mucho más fácil a su lado, son enormes profesionales.
+
+Link GitHub Pages: https://alequn.github.io/SkyQuest/
+
+Link Netlify: https://skyquest.netlify.app/
